@@ -13,3 +13,5 @@ To get the project running on your PC:
     ALGORITHM = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES = <time in minutes>
 ```
+
+3. Run the command `docker compose up server` to start the development server
