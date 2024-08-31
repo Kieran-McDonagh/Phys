@@ -9,9 +9,9 @@ To get the project running on your PC:
 
 ```
     MONGO_URI = "mongodb://mongo:27017/test_database"
-    SECRET_KEY = <secret key string>
+    SECRET_KEY = <secret key string (string)>
     ALGORITHM = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES = <time in minutes>
+    ACCESS_TOKEN_EXPIRE_MINUTES = <time in minutes (int)>
 ```
 
 3. Run the command `docker compose up server` to start the development server
